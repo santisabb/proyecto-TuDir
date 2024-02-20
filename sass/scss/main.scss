@@ -1,0 +1,25 @@
+//BASE
+//Reset
+@import 'partials/base/reset';
+//Fuentes de texto (fonts familys)
+@import 'partials/base/tipografia';
+
+
+//UTILITIES
+//Maps
+@import 'partials/utilities/maps';
+//Mixins
+@import 'partials/utilities/mixins';
+//Variables
+@import 'partials/utilities/variables';
+
+
+//COMPONENTS
+//Header
+@import 'partials/components/header';
+//Main
+@import 'partials/components/main';
+//Footer
+@import 'partials/components/footer';
+//Index
+@import 'partials/components/index';
