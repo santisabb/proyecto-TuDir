@@ -1,0 +1,34 @@
+header{
+    background-color: rgb(34, 29, 29);
+    @include flex(row, space-around, baseline);
+    padding: 1rem;
+    .page-title{
+        width: 100%;
+        @include flex(row, center, center);
+        .page-logo{
+            img{
+                height: 100px;
+                width: 100%;
+                border-radius: 50%;
+            }
+        }
+        .page-name{
+            color: azure;
+        }
+    }
+    .search{
+        width: 100%;
+    }
+    .profile{
+        width: 100%;
+        img{
+            height: 50%;
+            width: 20%;
+            border-radius: 50%;
+            border: solid 1px white;
+            &:hover{
+                border: solid 3px red;
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+main{
+    @include flex(row, center,center);
+    .side-nav{
+        display: flex;
+        height: 540px;
+        width: 20%;
+        background-color: rgb(66, 61, 61);
+        .nav{
+            height: 100%;
+            align-items: center;
+            .nav-list{
+                list-style: none;
+                .list-item{
+                    padding-bottom: 1rem;
+                    a{
+                        text-decoration: none;
+                        color: aliceblue;
+                        font-size: 1.25em;
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .page-content{
+        height: 540px;
+        width: 100%;
+        background-color: dimgray;
+        .card-container{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            padding: 1rem;
+        }
+    }
+}

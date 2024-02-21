@@ -12,6 +12,12 @@
         @content;
     }
 }
+//mixin para breakpoint en 765px de ancho
+@mixin bp-765{
+    @media screen and (max-width:765px){
+        @content;
+    }
+}
 //mixin para breakpoint en 520px de ancho
 @mixin mobile{
     @media screen and (max-width:520px) {
